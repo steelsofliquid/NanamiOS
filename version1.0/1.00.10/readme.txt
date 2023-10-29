@@ -17,8 +17,14 @@ Known Issues:
 - Interrupts cause a triple fault. For that reason, they've been disabled.
 
 Patch Notes:
-- Reverted Build 9's GDT back to that of Build 10.
+- Reverted Build 10's GDT back from Build 9 to that of Build 8.
 - Disabled interrupts.
 
 What's new or changed:
 Nothing.
+
+Testing:
+- Untimed endurance test, passed the test.
+
+Readme Corrections:
+- Fixed a typo in the patch notes saying it reverted 9's GDT to 10.

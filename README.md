@@ -38,3 +38,19 @@ __I tried rebooting using Control, Alt, and Delete. Nothing happened! What do I 
 
 
 * _That won't do anything, as a keyboard driver isn't present. You need to press the power button (no need to hold it)._
+
+
+
+__I'm getting this weird black screen with a bunch of gray and white text and pink lines. What do I do?__
+
+
+
+* _Immediately. Press. The. Power. Button. I don't know what happens if you keep the screen going for longer periods of time. You probably experienced an interrupt, and that is worst-case scenario._
+
+
+
+__What will happen to Steel OS?__
+
+
+
+* _I'll likely keep it around, but use the interface in its current form as that of NanamiOS, and make drastic changes to Steel OS' interface. In fact, I've already started to make said changes in Steel OS 4 Build 3011..._

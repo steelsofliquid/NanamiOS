@@ -1,0 +1,8 @@
+Code Records Text File for NanamiOS
+
+2023 October 29th - Build 11:
+There's a difference between builds 11a and 11b.
+11A was the original compilation that only adds some new code to the interrupts.
+11B tests the actual interrupts system, and thus, could possibly cause the triple faults. I don't know yet.
+If you're looking for the more "stable" rendition, from my predictions, use 1.00.11A.
+I'll test both builds in VirtualBox and hope I don't make my PC go up in flames!! ^_^

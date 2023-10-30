@@ -54,3 +54,12 @@ __What will happen to Steel OS?__
 
 
 * _I'll likely keep it around, but use the interface in its current form as that of NanamiOS, and make drastic changes to Steel OS' interface. In fact, I've already started to make said changes in Steel OS 4 Build 3011..._
+
+
+
+__How can I trust this OS?__
+
+
+
+* _Starting with NanamiOS 1.00 Build 10, (most) builds of NanamiOS are tested to make sure they don't experience crashes and issues. These tests can be comparison tests, endurance tests, feature tests, etc. - Besides, I wouldn't mainline a project I'd need my one of my old PCs to test that I'd know would cause damage to that computer!_
+* _Besides, I also test this OS on physical hardware>_

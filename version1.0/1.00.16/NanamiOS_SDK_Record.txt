@@ -1,0 +1,19 @@
+-- NanamiOS SDK record --
+
+	When working on the OS, place each build record in here.
+You update this file when you enter the terminal and perform an
+action in the makefile. I should note that you probably should
+be using Linux (preferably, Ubuntu Linux or Linux Mint, Mint is
+recommended but I'm using Ubuntu Linux 23.04) to do the work on
+this OS directly (like the kernel, interrupts, drivers, and the
+ISO disc image.
+
+date				ver		action
+2023 Oct. 31 8:00 AM EST	1.00.16		Renamed current nanami_os.iso to "NanamiOS_1.00.16.iso"
+2023 Oct. 31 8:00 AM EST	1.00.16		Deleted old nanami_os.iso (NanamiOS_1.00.15.iso)
+2023 Oct. 31 7:59 AM EST	1.00.16		Created new nanami_os.iso file.
+2023 Oct. 31 7:59 AM EST	1.00.16		Updated shpxkskernel.bin
+2023 Oct. 31 7:58 AM EST	1.00.16		Checked kernel.o for updates.
+2023 Oct. 31 7:58 AM EST	1.00.16		Updated keyboard.o to latest version.
+2023 Oct. 31 7:53 AM EST	1.00.16		Updated record file info.
+2023 Oct. 31 7:48 AM EST 	1.00.16		Created record file.

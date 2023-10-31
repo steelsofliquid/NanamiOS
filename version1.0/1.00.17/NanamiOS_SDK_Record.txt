@@ -1,0 +1,39 @@
+-- NanamiOS SDK record --
+
+	When working on the OS, place each build record in here.
+You update this file when you enter the terminal and perform an
+action in the makefile. I should note that you probably should
+be using Linux (preferably, Ubuntu Linux or Linux Mint, Mint is
+recommended but I'm using Ubuntu Linux 23.04) to do the work on
+this OS directly (like the kernel, interrupts, drivers, and the
+ISO disc image.
+
+date				ver		action
+2023 Oct. 31 11:05 AM EST	1.00.17		Renamed current nanami_os.iso to "NanamiOS_1.00.17.iso"
+2023 Oct. 31 11:04 AM EST	1.00.17		Deleted old nanami_os.iso (NanamiOS_1.00.16.iso)
+2023 Oct. 31 11:03 AM EST	1.00.17		Made new "nanami_os.iso" file.
+2023 Oct. 31 11:03 AM EST	1.00.17		Built shpxkskernel.bin
+2023 Oct. 31 11:02 AM EST	1.00.17		Checked kernel.o
+2023 Oct. 31 11:02 AM EST	1.00.17		ManualBuildUDC: Checked mouse.o
+2023 Oct. 31 11:01 AM EST	1.00.17		ManualBuildUDC: Checked keyboard.o
+2023 Oct. 31 11:00 AM EST	1.00.17		Updated interrupts.o
+2023 Oct. 31 11:00 AM EST	1.00.17		ManualBuildUDC: Checked interrupts.o
+2023 Oct. 31 11:00 AM EST	1.00.17		ManualBuildUDC: Checked gdt.o
+2023 Oct. 31 10:57 AM EST	1.00.17		Built mouse.o
+2023 Oct. 31 10:52 AM EST	1.00.17		Finished mouse.cpp "InitProto".
+2023 Oct. 31 10:01 AM EST	1.00.17		Updated record file formatting.
+2023 Oct. 31 10:00 AM EST	1.00.17		Linked mouse.h and kernel.cpp
+2023 Oct. 31 09:58 AM EST	1.00.17		Updated makefile.
+2023 Oct. 31 09:46 AM EST	1.00.17		Created mouse.h
+2023 Oct. 31 09:46 AM EST	1.00.17		Created mouse.cpp
+2023 Oct. 31 08:03 AM EST	1.00.17		Updated kernel.o
+2023 Oct. 31 08:02 AM EST	1.00.17		Updated keyboard.o
+2023 Oct. 31 08:01 AM EST	1.00.16		Archived this build.
+2023 Oct. 31 08:00 AM EST	1.00.16		Renamed current nanami_os.iso to "NanamiOS_1.00.16.iso"
+2023 Oct. 31 08:00 AM EST	1.00.16		Deleted old nanami_os.iso (NanamiOS_1.00.15.iso)
+2023 Oct. 31 07:59 AM EST	1.00.16		Created new nanami_os.iso file.
+2023 Oct. 31 07:59 AM EST	1.00.16		Updated shpxkskernel.bin
+2023 Oct. 31 07:58 AM EST	1.00.16		Checked kernel.o for updates.
+2023 Oct. 31 07:58 AM EST	1.00.16		Updated keyboard.o to latest version.
+2023 Oct. 31 07:53 AM EST	1.00.16		Updated record file info.
+2023 Oct. 31 07:48 AM EST 	1.00.16		Created record file.

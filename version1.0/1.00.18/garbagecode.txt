@@ -1,0 +1,25 @@
+ -- What is this file? --
+ Left-over, scrap code supposed to be used in NanamiOS, but was removed for one reason or another.
+
+
+typedef void (*constructor)();
+extern "C" constructor start_ctors;
+extern "C" constructor end_ctors;
+extern "C" void callConstructors()
+{
+  for(constructor* i = &start_ctors; i != end_ctors; i++)
+    (*i)();
+}
+
+
+
+uint32_t InterruptManager::handleInterrupt(uint8_t interruptNumber, uint32_t esp)
+{
+    return 0;
+}
+
+-- keyboard.h (NanamiKeyboard keyboard driver for NanamiOS)
+
+    {
+        return esp;
+    }

@@ -29,6 +29,7 @@ Known Issues:
           -- END OF TESTING111 --
 
 - Any keys not picked up by the driver will cause an "          xx    unrecognized key" issue.
+- The build identifies itself as 1.00.14 in most areas.
 
 Patch Notes:
 - Nothing!

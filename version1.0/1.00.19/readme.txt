@@ -15,6 +15,7 @@ Known Issues:
 - Command Line doesn't exist.
 - Only one driver exists.
 - No backspace key
+- Glitch with the mouse driver causes a problem with the text display.
 
 Patch Notes:
 - Nothing!

@@ -1,0 +1,54 @@
+ -- What is this file? --
+ Left-over, scrap code supposed to be used in NanamiOS, but was removed for one reason or another.
+
+
+typedef void (*constructor)();
+extern "C" constructor start_ctors;
+extern "C" constructor end_ctors;
+extern "C" void callConstructors()
+{
+  for(constructor* i = &start_ctors; i != end_ctors; i++)
+    (*i)();
+}
+
+
+-- ^- This code has added into NanamiOS 1.00.20 with a slight difference. -^ --
+
+
+uint32_t InterruptManager::handleInterrupt(uint8_t interruptNumber, uint32_t esp)
+{
+    return 0;
+}
+
+-- keyboard.h (NanamiKeyboard keyboard driver for NanamiOS)
+
+    {
+        return esp;
+    }
+    
+    
+-- mouse.h (NanamiMouse mouse driver for NanamiOS)
+
+int oldx, int oldy, 
+
+ || handler == 0
+ 
+             static uint16_t* VideoMemory = (uint16_t*)0xb8000; // The video memory is the same for all GPUs for now. It doesn't matter if your PC has a flashy brand-new RTX or an ancient Voodoo. NanamiOS treats both cards equally.
+
+            VideoMemory[80*y+x] = (VideoMemory[80*y+x] & 0x0F00) >> 4
+                                | (VideoMemory[80*y+x] & 0xF000) << 4
+                                | (VideoMemory[80*y+x] & 0x00FF);
+
+            x += buffer[1];
+            if(x < 0) x = 0;
+            if(x >= 80) x = 79;
+
+            y -= buffer[2];
+            if(y < 0) y = 0;
+            if(y >= 25) y = 24;
+
+            VideoMemory[80*y+x] = (VideoMemory[80*y+x] & 0x0F00) >> 4
+                                | (VideoMemory[80*y+x] & 0xF000) << 4
+                                | (VideoMemory[80*y+x] & 0x00FF);
+    
+

@@ -1,0 +1,154 @@
+-- NanamiOS SDK record --		
+
+	When working on the OS, place each build record in here.
+You update this file when you enter the terminal and perform an
+action in the makefile. I should note that you probably should
+be using Linux (preferably, Ubuntu Linux or Linux Mint, Mint is
+recommended but I'm using Ubuntu Linux 23.04) to do the work on
+this OS directly (like the kernel, interrupts, drivers, and the
+ISO disc image.
+
+date				ver		target/topic		action
+2023 Nov. 01 11:25 PM EST	1.00.22		NanamiOS ISO File	Renamed current NanamiOS ISO to "NanamiOS_1.00.22.iso"
+2023 Nov. 01 11:25 PM EST	1.00.22		NanamiOS ISO File	Deleted old NanamiOS ISO (NanamiOS_1.00.21.iso)
+2023 Nov. 01 11:24 PM EST	1.00.22		Makefile		Composed nanami_os.iso
+2023 Nov. 01 11:24 PM EST	1.00.22		Makefile		Compiled shpxkskernel.bin
+2023 Nov. 01 11:23 PM EST	1.00.22		Makefile		Compiled kernel.o
+2023 Nov. 01 11:22 PM EST	1.00.22		Makefile		Encountered error while compiling kernel.o (view 97:10 kernel.cpp - 'offset' was not declared in this scope; ...)
+2023 Nov. 01 11:19 PM EST	1.00.22		Makefile		Encountered error while compiling kernel.o (view 180:37 kernel.cpp - 'mousehandler' was not declared in this scope)
+2023 Nov. 01 11:19 PM EST	1.00.22		Makefile		Encountered error while compiling kernel.o (view 97:10 kernel.cpp - 'buffer' was not declared in this scope)
+2023 Nov. 01 11:18 PM EST	1.00.22		kernel.cpp		Attempted to see if one of the errors could be fixed
+2023 Nov. 01 11:15 PM EST	1.00.22		Makefile		Enountered error while compiling kernel.o (view 180:34 kernel.cpp)
+2023 Nov. 01 11:15 PM EST	1.00.22		Makefile		Encountered error while compiling kernel.o (view 97:10 kernel.cpp)
+2023 Nov. 01 11:14 PM EST	1.00.22		Makefile		Checked driver.o; it's already up-to-date
+2023 Nov. 01 11:14 PM EST	1.00.22		Makefile		Compiled mouse.o
+2023 Nov. 01 11:14 PM EST	1.00.22		Makefile		Compiled keyboard.o
+2023 Nov. 01 11:13 PM EST	1.00.22		Makefile		Compiled interrupts.o
+2023 Nov. 01 11:13 PM EST	1.00.22		General NanamiOS	Finished making changes.
+2023 Nov. 01 11:09 PM EST	1.00.22		Garbage Code		Disposed a chunk of code in mouse.cpp
+2023 Nov. 01 10:51 PM EST	1.00.19.b2	b2 Lab Branch NanamiOS	Testing failed for this copy. Do NOT transfer 1.00.7's GDT format to latest build!
+2023 Nov. 01 10:48 PM EST	1.00.19.b2	b2 Lab Branch NanamiOS	Renamed the mentioned ISO.
+2023 Nov. 01 10:47 PM EST	1.00.19.b2	b2 Lab Branch NanamiOS	Compiled new nanami_os.iso
+2023 Nov. 01 10:46 PM EST	1.00.19.b2	b2 Lab Branch NanamiOS	Compiled new shpxkskernel.bin
+2023 Nov. 01 10:46 PM EST	1.00.19.b2	b2 Lab Branch NanamiOS	Compiled new gdt.o
+2023 Nov. 01 10:44 PM EST	1.00.19.b2	b2 Lab Branch NanamiOS	Created branch for testing GDT and mouse driver.
+2023 Nov. 01 04:59 PM EST	1.00.22		General NanamiOS	End of development session B.20231101 - development to continue soon.
+2023 Nov. 01 02:57 PM EST	1.00.22		General NanamiOS	End of development session A.20231101 - development to continue soon.
+2023 Nov. 01 01:58 PM EST	1.00.22		Makefile		Updated keyboard.o
+2023 Nov. 01 01:58 PM EST	1.00.22		Makefile		Updated kernel.o
+2023 Nov. 01 01:57 PM EST	1.00.22		General NanamiOS	Updated version pointers code.
+2023 Nov. 01 01:56 PM EST	1.00.21		General NanamiOS	Archived this build.
+2023 Nov. 01 01:55 PM EST	1.00.21		NanamiOS ISO File	Renamed current NanamiOS ISO file to "NanamiOS_1.00.21.iso".
+2023 Nov. 01 01:54 PM EST	1.00.21		NanamiOS ISO File	Deleted old NanamiOS ISO file (NanamiOS_1.00.20.iso)
+2023 Nov. 01 01:54 PM EST	1.00.21		Makefile		Composed new nanami_os.iso
+2023 Nov. 01 01:53 PM EST	1.00.21		Makefile		Compiled shpxkskernel.bin
+2023 Nov. 01 01:52 PM EST	1.00.21		kernel.o Note		...i forgot what i was gonna say.
+2023 Nov. 01 01:51 PM EST	1.00.21		Makefile		Compiled kernel.o
+2023 Nov. 01 01:50 PM EST	1.00.21		Makefile		Encountered error while compiling kernel.o (view 79:2 kernel.cpp)
+2023 Nov. 01 01:49 PM EST	1.00.21		keyboard.o Note		I patched the driver so it doesn't have the potential to cause an overflow by hitting the tab key.
+2023 Nov. 01 01:49 PM EST	1.00.21		Makefile		Compiled keyboard.o
+2023 Nov. 01 01:48 PM EST	1.00.21		Makefile		Encountered error while compiling keyboard.o
+2023 Nov. 01 01:46 PM EST	1.00.21		keyboard.o Warning	78:43 keyboard.cpp: The tab key may cause an overflow!
+2023 Nov. 01 01:45 PM EST	1.00.21		Makefile		Compiled keyboard.o
+2023 Nov. 01 01:45 PM EST	1.00.21		Makefile		Checked mouse.o compilation.
+2023 Nov. 01 01:43 PM EST	1.00.21		Makefile		Compiled interrupts.o
+2023 Nov. 01 01:41 PM EST	1.00.21		Cross-build NanamiOS	Restored snippet of code in 1.00.21 with snippet from 1.00.20
+2023 Nov. 01 01:38 PM EST	1.00.21		Makefile		Encountered error while compiling interrupts.o
+2023 Nov. 01 01:37 PM EST	1.00.21		Makefile		Checked driver.o compilation.
+2023 Nov. 01 01:36 PM EST	1.00.21		General NanamiOS	Initial development block completed
+2023 Nov. 01 01:28 PM EST	1.00.21		General NanamiOS	Development may be temporarily halted.
+2023 Nov. 01 01:27 PM EST	1.00.21		General NanamiOS	Steel64, Steel32 and SteelDOS modes have been predominantly scrapped.
+2023 Nov. 01 12:10 PM EST	1.00.21		keyboard.cpp		Added "break;" to the ends of the macro-commands, as they probably should have had.
+2023 Nov. 01 11:53 AM EST	1.00.21		Makefile		Updated kernel.o
+2023 Nov. 01 11:53 AM EST	1.00.21		Makefile		Updated keyboard.o
+2023 Nov. 01 11:52 AM EST	1.00.21		General NanamiOS	Updated version pointers code.
+2023 Nov. 01 11:50 AM EST	1.00.20		General NanamiOS	Archived this build.
+2023 Nov. 01 11:49 AM EST	1.00.20		Note			The compilation went off without a hitch! What about the testing?
+2023 Nov. 01 11:46 AM EST	1.00.20		NanamiOS ISO		Renamed current NanamiOS ISO file to "NanamiOS_1.00.20.iso".
+2023 Nov. 01 11:45 AM EST	1.00.20		NanamiOS ISO		Deleted old NanamiOS ISO file (NanamiOS_1.00.19.iso)
+2023 Nov. 01 11:44 AM EST	1.00.20		Makefile		Compiled new nanami_os.iso
+2023 Nov. 01 11:43 AM EST	1.00.20		Makefile		Compiled shpxkskernel.bin
+2023 Nov. 01 11:42 AM EST	1.00.20		Makefile		Compiled kernel.o
+2023 Nov. 01 11:42 AM EST	1.00.20		Makefile		Compiled driver.o
+2023 Nov. 01 11:41 AM EST	1.00.20		Makefile		Compiled keyboard.o
+2023 Nov. 01 11:41 AM EST	1.00.20		Makefile		Compiled mouse.o
+2023 Nov. 01 11:40 AM EST	1.00.20		General NanamiOS	Finished base development of 1.00 Build 20.
+2023 Nov. 01 11:18 AM EST	1.00.20		Makefile		Compiled new loader.o
+2023 Nov. 01 11:17 AM EST	1.00.20		loader.s		Finished some jobs
+2023 Nov. 01 10:42 AM EST	1.00.20		kernel.cpp		Added and made a slight modification to some code stored in "garbagecode.txt"
+2023 Nov. 01 09:38 AM EST	1.00.20		mouse.cpp		Made the printf line dormant.
+2023 Oct. 31 02:59 PM EST	1.00.20		General NanamiOS	End of dev session A.
+2023 Oct. 31 02:24 PM EST	1.00.20		Makefile		Compiled keyboard.o
+2023 Oct. 31 02:23 PM EST	1.00.20		Makefile		Failed to compile keyboard.o - Missing semicolon!
+2023 Oct. 31 02:23 PM EST	1.00.20		kernel.cpp		Created a boot screen.
+2023 Oct. 31 02:22 PM EST	1.00.20		keyboard.cpp		Added an F4 macro-command.
+2023 Oct. 31 01:58 PM EST	1.00.20		kernel.cpp		Added last-gen of loading systems
+2023 Oct. 31 01:57 PM EST	1.00.20		Makefile		Compiled keyboard.o
+2023 Oct. 31 01:56 PM EST	1.00.20		keyboard.cpp		Added F3 macro-command
+2023 Oct. 31 01:47 PM EST	1.00.20		Makefile		Compiled keyboard.o
+2023 Oct. 31 01:45 PM EST	1.00.20		NanamiOS_SDK_Record.txt	Changed "target" to "target/topic".
+2023 Oct. 31 01:44 PM EST	1.00.20		Makefile		Failed to compile keyboard.o - Missing semicolon!
+2023 Oct. 31 01:42 PM EST	1.00.20		NanamiOS_SDK_Record.txt	Added new column, "target".
+2023 Oct. 31 01:41 PM EST	1.00.20		keyboard.o		Updated F1 macro-command.
+2023 Oct. 31 01:40 PM EST	1.00.20					Added another macro-command to keyboard.o.
+2023 Oct. 31 01:33 PM EST	1.00.20					Finished stage 1 of driver.cpp
+2023 Oct. 31 01:19 PM EST	1.00.20					Finished stage 1 of driver.h
+2023 Oct. 31 01:06 PM EST	1.00.20		Created driver.cpp
+2023 Oct. 31 01:05 PM EST	1.00.20		Created driver.h
+2023 Oct. 31 01:01 PM EST	1.00.20		Created new directories.
+2023 Oct. 31 12:38 PM EST	1.00.20		Updated keyboard.o (version pointers)
+2023 Oct. 31 12:38 PM EST	1.00.20		Updated kernel.o (version pointers)
+2023 Oct. 31 12:37 PM EST	1.00.20		Changed version pointers.
+2023 Oct. 31 12:36 PM EST	1.00.19		Archived this build.
+2023 Oct. 31 12:35 PM EST	1.00.19		Fixed the SDK record file as all 12 PM timings were pointing to midnight (12 AM)
+2023 Oct. 31 12:35 PM EST	1.00.19		Renamed current nanami_os.iso to "NanamiOS_1.00.19.iso"
+2023 Oct. 31 12:34 PM EST	1.00.19		Deleted old nanami_os.iso (NanamiOS_1.00.18.iso)
+2023 Oct. 31 12:33 PM EST	1.00.19		Made new "nanami_os.iso" file.
+2023 Oct. 31 12:31 PM EST	1.00.19		Built shpxkskernel.bin
+2023 Oct. 31 12:31 PM EST	1.00.19		Updated kernel.o
+2023 Oct. 31 12:31 PM EST	1.00.19		Updated mouse.o
+2023 Oct. 31 11:38 AM EST	1.00.19		Updated version pointers everywhere.
+2023 Oct. 31 11:37 AM EST	1.00.18		Archived this build.
+2023 Oct. 31 11:36 AM EST	1.00.18		Renamed current nanami_os.iso to "NanamiOS_1.00.18.iso"
+2023 Oct. 31 11:35 AM EST	1.00.18		Deleted old nanami_os.iso (NanamiOS_1.00.17.iso)
+2023 Oct. 31 11:35 AM EST	1.00.18		Made new "nanami_os.iso" file.
+2023 Oct. 31 11:34 AM EST	1.00.18		Built shpxkskernel.bin
+2023 Oct. 31 11:34 AM EST	1.00.18		Updated "kernel.o".
+2023 Oct. 31 11:32 AM EST	1.00.18		Updated "interrupts.o" to patched version to get mouse driver to work
+2023 Oct. 31 11:29 AM EST	1.00.18		Created and finished a manual on how to use the makefile
+2023 Oct. 31 11:18 AM EST	1.00.18		Updated interruptstubs.o, which is what I tried to update.
+2023 Oct. 31 11:17 AM EST	1.00.18		Attempted to make non-existent file "interruptsstubs.o", stemmed from a spelling error.
+2023 Oct. 31 11:14 AM EST	1.00.18		Added headers to CodeRecords.txt
+2023 Oct. 31 11:14 AM EST	1.00.18		Added post-archive 1.00.17 code record to 1.00.18 code record file.
+2023 Oct. 31 11:13 AM EST	1.00.17		Updated code records.
+2023 Oct. 31 11:09 AM EST	1.00.18		Updated version pointers in kernel.cpp and keyboard.cpp
+2023 Oct. 31 11:08 AM EST	1.00.18		Updated makefile GRUB info.
+2023 Oct. 31 11:06 AM EST	1.00.17		Archived this build.
+2023 Oct. 31 11:05 AM EST	1.00.17		Renamed current nanami_os.iso to "NanamiOS_1.00.17.iso"
+2023 Oct. 31 11:04 AM EST	1.00.17		Deleted old nanami_os.iso (NanamiOS_1.00.16.iso)
+2023 Oct. 31 11:03 AM EST	1.00.17		Made new "nanami_os.iso" file.
+2023 Oct. 31 11:03 AM EST	1.00.17		Built shpxkskernel.bin
+2023 Oct. 31 11:02 AM EST	1.00.17		Checked kernel.o
+2023 Oct. 31 11:02 AM EST	1.00.17		ManualBuildUDC: Checked mouse.o
+2023 Oct. 31 11:01 AM EST	1.00.17		ManualBuildUDC: Checked keyboard.o
+2023 Oct. 31 11:00 AM EST	1.00.17		Updated interrupts.o
+2023 Oct. 31 11:00 AM EST	1.00.17		ManualBuildUDC: Checked interrupts.o
+2023 Oct. 31 11:00 AM EST	1.00.17		ManualBuildUDC: Checked gdt.o
+2023 Oct. 31 10:57 AM EST	1.00.17		Built mouse.o
+2023 Oct. 31 10:52 AM EST	1.00.17		Finished mouse.cpp "InitProto".
+2023 Oct. 31 10:01 AM EST	1.00.17		Updated record file formatting.
+2023 Oct. 31 10:00 AM EST	1.00.17		Linked mouse.h and kernel.cpp
+2023 Oct. 31 09:58 AM EST	1.00.17		Updated makefile.
+2023 Oct. 31 09:46 AM EST	1.00.17		Created mouse.h
+2023 Oct. 31 09:46 AM EST	1.00.17		Created mouse.cpp
+2023 Oct. 31 08:03 AM EST	1.00.17		Updated kernel.o
+2023 Oct. 31 08:02 AM EST	1.00.17		Updated keyboard.o
+2023 Oct. 31 08:01 AM EST	1.00.16		Archived this build.
+2023 Oct. 31 08:00 AM EST	1.00.16		Renamed current nanami_os.iso to "NanamiOS_1.00.16.iso"
+2023 Oct. 31 08:00 AM EST	1.00.16		Deleted old nanami_os.iso (NanamiOS_1.00.15.iso)
+2023 Oct. 31 07:59 AM EST	1.00.16		Created new nanami_os.iso file.
+2023 Oct. 31 07:59 AM EST	1.00.16		Updated shpxkskernel.bin
+2023 Oct. 31 07:58 AM EST	1.00.16		Checked kernel.o for updates.
+2023 Oct. 31 07:58 AM EST	1.00.16		Updated keyboard.o to latest version.
+2023 Oct. 31 07:53 AM EST	1.00.16		Updated record file info.
+2023 Oct. 31 07:48 AM EST 	1.00.16		Created record file.

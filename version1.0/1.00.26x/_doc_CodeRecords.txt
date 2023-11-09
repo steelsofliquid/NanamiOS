@@ -1,0 +1,44 @@
+Code Records Text File for NanamiOS
+
+-- Builds 26A + 26B --
+2023 November 7th - Build 26:
+There's a graphical difference between 26A and 26B. Technically speaking, there's nothing different between these versions' code, as it's effectively identical, but the screen output is different.
+26A uses the normal, standard boot splash, and is aimed towards the average consumer.
+26B uses a more technical, debug-like boot screen, and is aimed towards the following:
+	- Power users
+	- System administrators
+	- Developers
+	- IT professionals
+	- Big corporations
+	- Hardware manufacturers
+	- OEMS for developing their hardware.
+	- Teenage computer nerds who like tinkering with software
+	- Guys who love Linux and old ThinkPads
+	- Nanami Madobe
+	- PCI enthusiasts
+	- Anyone who LOVES old-school UNIX and Linux boot screens (that you still see to this day)
+	- Diagnostics people (can I say doctors?)
+This is because 26x introduces PCI support. It took DAYS. I bought a Dell Dimension off of eBay and it got here before I properly finished NanamiOS 1.00 Build 26x. So, I need to test NanamiOS 1.00 Build 26 on an assortment of hardware that supports the PS/2 interface, including hardware from Gateway, Compaq, and Dell, and maybe Toshiba. I also need to test the OS in VirtualBox (as usual), as I want an idea of what the types of hardware are in these computers so I can slowly start to develop drivers for NanamiOS.
+Both builds are, hopefully, equally as stable, but if I were you, I'd choose 26A unless you need to test PCI stuff. I've included both builds' BIN and ISO files, in order to install a build locally, you need to change the desired build's name to not include the version pointer at the end of the file name, and then run it on Linux and install the BIN.
+I'll likely be using 26B for most of my testing.
+
+-- Build 20 --
+2023 November 1st - Build 20:
+Attempted patch of mouse driver and keyboard driver. Also, a new boot screen has
+been coded using ASCII art and C++.
+
+-- Build 17 --
+2023 October 31st - Build 17:
+A bug in the assembly code prevents actual mouse movement. I added this to this
+archived directory after making 1.00.18's directory.
+
+-- Builds 11A + 11B --
+2023 October 29th - Build 11:
+There's a difference between builds 11a and 11b.
+11A was the original compilation that only adds some new code to the interrupts.
+11B tests the actual interrupts system, and thus, could possibly cause the triple faults. I don't know yet.
+If you're looking for the more "stable" rendition, from my predictions, use 1.00.11A.
+I'll test both builds in VirtualBox and hope I don't make my PC go up in flames!! ^_^
+
+2023 October 31st - Build 11:
+So, both versions of Build 11 work A-OK. I thought I'd leave this status update.

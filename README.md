@@ -45,7 +45,7 @@ __I'm getting this weird black screen with a bunch of gray and white text and pi
 
 
 
-* _Immediately. Press. The. Power. Button. I don't know what happens if you keep the screen going for longer periods of time. You probably experienced an interrupt, and that is worst-case scenario._
+* _Immediately. Press. The. Power. Button. I don't know what happens if you keep the screen going for longer periods of time. You probably experienced an interrupt, and one that the system doesn't know how to handle._
 
 
 

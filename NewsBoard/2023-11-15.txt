@@ -1,0 +1,13 @@
+News for NanamiOS, 2023 Nov. 15
+
+Build 27 is in the works.
+  Currently, I'm working on adding BARs (Base Address Registers) to NanamiOS, and on
+a deeper level, NanamiPCI. This build also overhauls the A-spec's boot screen, and for
+macro-commands, proper names are being put in place. The F7 key also has been set for
+when NanamiOS gets a graphics mode.
+
+NanamiOS will be getting a website, similar to my main website.
+  NanamiOS is going to be getting a proper website. Using the same forms of things I
+used to make my main, proper website. It will be the source for news, some documentation,
+and a generally better and more clean place to understand NanamiOS and have new people
+to the OS be introduced to NanamiOS.

@@ -1,0 +1,4 @@
+News for NanamiOS, 2023 Nov. 16
+
+Build 27 is still, in the works.
+  I added basis for the command line and window manager.

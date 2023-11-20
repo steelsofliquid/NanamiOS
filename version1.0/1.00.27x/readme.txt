@@ -20,6 +20,7 @@ Known Issues:
 - Running on a Dell Dimension 3000 with a PS/2 keyboard causes the keys to misbehave.
 - F5, F6, and F7 keys, for whatever reason, all go off when you strike F5.
 - The same applies for F6 but without F5 action.
+- The actual build date was 2023 November 19th.
 
 Patch Notes:
 Nothing.

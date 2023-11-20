@@ -1,0 +1,69 @@
+NanamiOS 1.00 SuperGuide for Developers - Volume 1A
+
+This volume covers the following:
+ - What is the SuperGuide?
+ - NanamiOS SDK standards
+ - Different NanamiOS builds
+ - Macro-Commands
+ - Developer Lingo
+ - PCI
+ 
+What is the NanamiOS SuperGuide?
+	This is a collection of documents and manuals aimed towards developers of the NanamiOS operating system developed by SteelsOfLiquid. It covers different API aspects, various NanamiOS components, and some technical background (as explained using my tiny "last seven" brain cells, kyahaha no I probably am smart enough to get various programming language certification, I mean just look at Steel OS) of NanamiOS.
+	
+	NanamiOS is written in C++, C, and modern Assembly language, and was developed following the "Write your own Operating System" series. This guide was created prior to 1.00.25 (but after 1.00.24 was compiled and tested), and was initially supposed to be strictly a map of where the components resided, moreso drivers. This guide began development in 1.00.25, though as of that time, it is not complete.
+	
+	
+	
+NanamiOS SDK Standards
+	NanamiOS follows rather specific standards that, depending on your experience and standards, may be either conventional, or more likely, unconventional. I should state that this project pays an enormous amount of tribute, honor, and dedication to an anime character (if it's not already obvious from the OS name), specifically, Nanami Madobe, an OS-tan character that represents Windows 7 that is semi-official (she was used in various Windows 7 promotional campaigns in Japan from around 2009-2013) that has lightweight usage terms (or whatever I'm talking about that says that you can use her in your own derivative works), so, to the general public, this project already may seem extremely unconventional.
+	As NanamiOS was initially one of the sister projects of Steel OS, it means it follows a number of standards seen in Steel OS. For some reference, Steel OS was developed in TurboWarp (a special version of the Scratch visual programming language that is more oriented towards power users), and followed a number of standards. Some of these standards are pretty common to see in my style of software development, and thus, they may seem rather unconventional.
+	The first of these standards I'm going to touch up on is how source code naming and source file management works. As it follows Steel OS standards directly, NanamiOS source code is stored all entirely inside of one directory, which is the root directory. This also has a perk, being that the potential for an error to occur during compilation as a result of a code file pointing to a missing directory. How NanamiOS source code is handled inside of this singular directory is that the source is then sorted in a specific way. For example, the keyboard driver:
+	"src.drivers.keyboard.cpp".
+	This is classified by NanamiOS SDK standards in the following way:
+	- "keyboard.cpp" is the file name,
+	- "src." is the first level major filter, designed for source code,
+	- and "drivers." is the second level filter, designed for drivers.
+	
+	It is a rather quirky tactic, and also allows for source to be uploaded much easier.
+	NanamiOS also uses components and software developed under a mix of Windows and Steel OS naming conventions. Meaning that some software, such as the interrupt manager, uses the naming of "NanamiOS [software name]", as in "NanamiOS Interrupt Manager". While other software uses the naming style of "Nanami[software name]", as in "NanamiMouse". You don't have to apply this to your software, however.
+	When work is completed on a system component, it is recorded in the SDK record. Apply any work you do in this file.
+
+
+
+Different NanamiOS builds
+	NanamiOS is compiled in different build formats or styles. Generally speaking, all builds will deploy the same version number, for example, 26A, 26B, 26C and 26D all share the version number of 1.00.26. But, there's usually at least one difference between these build specs (A-Z). Typically, A-spec builds will contain the standard boot screen, while the B-spec builds contain a verbose boot screen found in most traditional Unix systems (and early Windows NT versions). C-spec and D-spec builds typically are either fallbacks, recompiles, or A/B-spec recompiles. As these are not included in the same disc, so you will need to burn the separate-spec builds separately.
+	On occasion, an extra branch will be compiled, with an extra version pointer. These are non-main branches, and are experimental to test if something works better a different way. An example is 1.00.19.b2, which tested the global descriptor table under the 1.00.4 GDT format instead of the 1.00.19 GDT format. This "b2" branch is the most common extra branch, and includes various experiments. In this case, 1.00.19.b2 failed testing (it performed a triple fault), which is why it was on the b2 branch instead of the standard branch.
+
+
+
+Macro-Commands
+	Macro-commands is a feature that will likely be deprecated before NanamiOS 1.00 is released. Basically, it works like this:
+	(Your finger) -> F3 Key
+	F3 key -v^---> Keyboard driver
+	Keyboard driver --v^-> Interrupt Manager
+	Interrupt Manager --v^-> Keyboard driver
+	Keyboard driver line 128 --> printf("[Task List]")
+	That --v^--> Screen
+	Screen displays the list of running tasks.
+	
+	It's fairly simple. You can program the Fx keys to do these. Here's a list of open hex values:
+		Note: the F7 key is reserved for a specific feature.
+		F8  -> 0x[to be added]
+		F9  -> 0x[to be added]
+		F10 -> 0x[to be added]
+		F11 -> 0x[to be added]
+		F12 -> 0x[to be added]
+		
+	Also, why I may deprecate this before NanamiOS 1.00's proper full major release, that's because it's a text-mode utility and doesn't work all-that-well in VGA mode, a planned component.
+
+
+
+Developer Lingo
+	This section refers to all of the "slang" used for OS development. That I can find and list.
+	- IRQ: interrupt request
+
+
+
+PCI
+	Peripheral Component Interconnect, or PCI for short, is a device technology very significant in NanamiOS behind the end-user's doors of eyes. They may find a "NanamiPCI" process, as that controls PCI. In the planned client for the NanamiOS Driver Manager, drivers for PCI devices will likely be listed using "PCI Driver". If you want to develop a driver for a PCI device, view the vendor and device ID repositories included in the documentation.

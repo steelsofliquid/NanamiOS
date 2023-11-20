@@ -1,0 +1,6 @@
+-- NanamiOS keyboard driver (NanamiKeyboard) key maps --
+
+	Hex		Key
+	0x1E		A
+	
+** I filled in the rest of these.

@@ -1,0 +1,130 @@
+PCI Vendor ID List for NanamiOS driver development.
+
+	Please note that this list is for developers of third-party drivers. This very likely means all driver developers for NanamiOS, as due to its obscurity, hardware manufacturers do not develop drivers for NanamiOS.
+	If you are a hardware manufacturer or contributor and have found a vendor ID not in this list, please contact me (send an e-mail to steelsofliquid@hotmail.com please) with said vendor ID. You need to have tested NanamiOS with your PCI hardware in the testing computer and provide an image with your vendor ID.
+	Use a copy of NanamiOS 1.00 Build 26B for your testing purposes and intents! ^_^
+
+
+
+Hex	Company Name
+
+021B	Compaq Computer Corporation
+07D1	D-Link System Inc
+0E11	Compaq Computer Corporation
+1000	Broadcom / LSI
+100D	AST Research Inc.
+1011	Digital Equipment Corporation
+101C	Western Digital
+101E	American Megatrends, Inc.
+1002	Advanced Micro Devices, Inc. (AMD/ATI)
+1014	IBM
+1020	Hitachi Computer Products
+1022	Advanced Micro Devices, Inc. (AMD)
+1028 	Dell
+102F	Toshiba America
+1032	Compaq
+1033	NEC Corporation
+1037	Hitachi Micro Systems
+103A	Seiko Epson Corporation
+103C	Hewlett-Packard Company
+1042	Micron
+1043	ASUSTeK Computer Inc.
+104C	Texas Instruments
+104D	Sony Corporation
+1054	Hitachi, Ltd
+1057	Motorola
+105B	Foxconn International, Inc.
+105E	Vtech Computers Ltd
+106B	Apple Inc.
+1078	Cyrix Corporation
+107B	Gateway, Inc.
+107C	LG Electronics (Lucky Goldstar Co. Ltd)
+108E	Oracle/SUN
+1099	Samsung Electronics Co., Ltd
+109A	Packard Bell
+10A3	Everex Systems Inc
+10C3	Samsung Semiconductors, Inc.
+10DE	NVIDIA Corporation
+10EC	Realtek Semiconductor Co., Ltd.
+10ED	Ascii Corporation
+1102	Creative Labs
+1106	VIA Technologies, Inc.
+1120	Dell EMC
+1137	Cisco Systems Inc
+113E	Sanyo Electric Co - Computer Enginerring Dept
+1173	Adobe Systems, Inc.
+1179	Toshiba Corporation
+1186	D-Link System Inc
+11B1	Apricot Computers
+11B7	Motorola
+11C0	Hewlett Packard
+11C3	NEC Corporation
+11DA	Novell
+11DB	Sega Enterprises Ltd
+11E2	Samsung Information Systems America
+11E7	Toshiba America, Elec. Company
+1209	SCI Systems Inc
+121A	3Dfx Interactive, Inc.
+1249	Samsung Electronics Co., Ltd.
+1250	Hitachi Microcomputer System Ltd
+1265	Casio Computer Co., Ltd.
+12E1	Nintendo Co, Ltd
+1344	Micron Technology Inc
+1385	Netgear
+1388	Hitachi Information Technology Co Ltd
+13BB	Sanyo Technosound Co Ltd
+13BD	Sharp Corporation
+13D7	Toshiba Engineering Corporation
+13F2	Ford Microelectronics Inc
+1412	VIA Technologies Inc.
+1414	Microsoft Corporation
+144D	Samsung Electronics Co Ltd
+1458	Gigabyte Technology Co., Ltd
+1462	Micro-Star International Co., Ltd. (MSI)
+14EB	SEIKO EPSON Corp
+153F	MIPS Technologies, Inc.
+1565	Biostar Microtech Int'l Corp
+1574	Fairchild Semiconductor
+1590	Hewlett Packard Enterprise
+15AD	VMWare
+15B7	Sandisk Corp
+1631	Packard Bell B.V.
+165F	Linux Media Labs, LLC
+167D	Samsung Electro-Mechanics Co., Ltd.
+1737	Linksys
+1799	Belkin
+17AA	Lenovo
+1849	ASRock Incorporation
+1854	LG Electronics, Inc.
+18A3	AT&T
+1AE0	Google, Inc.
+1AED	SanDisk
+1AF4	Red Hat, Inc.
+1B1C	Corsair
+1B36	Red Hat, Inc.
+1B96	Western Digital
+1BB1	Seagate Technology PLC
+1BCF	NEC Corporation
+1CFA	Corsair Memory, Inc
+1D49	Lenovo
+1D9B	Meta Platforms, Inc.
+1E44	Valve Software
+1EE9	SUSE LLC
+2646	Kingston Technology Company, Inc.
+4143	Digital Equipment Corp
+5333	S3 Graphics Ltd.
+6900	Red Hat, Inc.
+7470	TP-LINK Technologies Co., Ltd.
+8086	Intel Corporation
+8686	SAP
+9005	Adaptec
+A200	NEC Corporation
+A259	Hewlett Packard
+A304	Sony
+BDBD	Blackmagic Design
+C0A9	Micron/Crucial Technology
+C0DE	Motorola
+EC80	Belkin Corporation
+FFFE	VMWare Inc (temporary ID)
+
+FFFF	This is an illegal vendor ID.

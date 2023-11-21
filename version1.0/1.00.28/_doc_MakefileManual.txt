@@ -1,0 +1,23 @@
+Yeah, I know you can just go into the Makefile yourself in this text editor or in Visual Studio Code.
+
+But, please DON'T make changes to it.
+If you want to use it, first open the terminal to the source folder (NanamiOS current build).
+
+You will need:
+- g++
+- mtools
+- a bunch of other packages I don't remember the names of
+- possibly visual studio code
+
+Follow the instructions precisely to use the makefile.
+
+TO: Build any file
+Enter "make [file name]" into the terminal.
+The inputs are pre-determined in the makefile. If you need to make a new file for the OS, add that file as "[name goes here].o" to the files.
+
+TO: install NanamiOS locally:
+Enter "make install shpxkskernel.bin" in the terminal.
+** This hasn't been tested, and it requires Linux, which you should have installed. If not, first install Ubuntu and then run the makefile under Linux. Note that Windows 11 encrypts your drive (iirc) and you won't be able to access the makefile.
+
+TO: Create a bootable, proper, possibly even "authentic" NanamiOS disc image:
+Enter "make nanami_os.iso" into the terminal.

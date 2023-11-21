@@ -1,0 +1,34 @@
+-- NanamiOS End-User License Agreement --
+1.00.27 | 2023-11-11
+
+Precursor:
+- By using NanamiOS, you agree to this agreement.
+- I typically do not have any tight restrictions on my software.
+
+-- Terms --
+
+1. NanamiOS is experimental software (at the moment). As such, things may go horribly wrong. The best experience may be provided by using VM software.
+1.01. I am not responsible for any damage you cause to your system from using NanamiOS.
+1.01.a. I also have tested NanamiOS on physical hardware, which it may not run properly on.
+1.01.b. It also is not my problem if you think this is the coolest thing ever, then format your disk and install this OS to be the only OS on your computer. You're making a mistake on your own hands, and if you file a lawsuit against me for "giving you a defective product", that is your own problem, and I woudln't be surprised if the court passed you off. You're using an alpha release of a computer operating system that requires a CD to boot that doesn't have graphics (yet).
+1.02. Currently, NanamiOS is in an alpha stage. It may not be the most stable thing.
+
+2. NanamiOS was influenced significantly by the Microsoft Windows 7 (NT 6.1) OS-tan, Nanami Madobe. Though Nanami Madobe has a derivative works policy similar to Touhou characters, you still shouldn't use the original character with NanamiOS, but the special variant created by me. If you need to know what this version looks like, a base reference is Nanami Madobe with longer hair, a silver outfit, darker leggings, and a darker headband. A picture also has been included.
+2.01. You still are not allowed to make NSFW content or other image-damaging content of this variant. If you want to make me look bad, kyahaha!! don't underestimate me, I'll DESTROY you if you mess with me. Want to find out? TRY. You WON'T like it. So, if you think you can make p*rn using my variant of an OC, go find someone else to pick on.
+2.02. I am, in no way, associated with the original creators of Nanami Madobe.
+2.02.a. But, for whatever reason, I kinda can make out Nanami-chan in myself, I hope this is just a coincidence...
+
+3. As this is free and open-source software (aka FOSS), you are allowed to copy and re-use NanamiOS as many times as you like. You can also use its source code to your benefit.
+3.01. But, I'd prefer you give me some credit if you use the NanamiOS source code.
+3.02. However, you may NOT do the following:
+3.02.a. Sell it as if it was your own.
+3.02.b. Reverse-engineer the source to get an advantage.
+3.02.c. Pass it down as though you developed it.
+3.02.d. Clone the source and rebadge it as your own software.
+3.02.e. Re-compile the source without my permission.
+3.02.f. Use the source as a threat.
+3.02.g. Use any part of the source without giving me a form of credit visible to the users of your project.
+3.03. NanamiOS also is not entirely developed from my knowledge, as it uses a lot of code from the tutorial made by Write your own Operating System on YouTube.
+
+4. Though no malware is wide-spread targeting NanamiOS at the moment, this does not mean you should use a security-through-obscurity practice.
+4.01. NanamiOS users may still be prone to Internet-based scams.

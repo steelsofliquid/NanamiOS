@@ -1,5 +1,6 @@
 # NanamiOS
 An actual operating system made by me. Naming influenced by my favorite anime character of all time (Nanami Madobe).
+NanamiOS has been discontinued.
 
 # _What is NanamiOS?_
 Unlike Steel OS (an operating environment), NanamiOS is an actual operating system that you can load onto a CD, and boot the OS off of that CD (trust me, I've tested it myself). It is written in C++ and Assembly, and the code is based off of tutorial code from Write your own Operating System videos.
